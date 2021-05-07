@@ -37,17 +37,17 @@ function onThemeChange(event){
     }
 };
 
-function currentTheme(){
-    const savedTheme = localStorage.getItem('theme');
+// function currentTheme(){
+//     const savedTheme = localStorage.getItem('theme');
 
-    if(savedTheme === `${Theme.DARK}`){
-        themeSwitcher.checked = true;
-        body.classList.add(`${Theme.DARK}`);
-    }
-    else{
-        themeSwitcher.checked = false;
-        body.classList.add(`${Theme.LIGHT}`);
-    }
-};
+//     if(savedTheme === `${Theme.DARK}`){
+//         themeSwitcher.checked = true;
+//         body.classList.add(`${Theme.DARK}`);
+//     }
+//     else{
+//         themeSwitcher.checked = false;
+//         body.classList.add(`${Theme.LIGHT}`);
+//     }
+// };
 
-currentTheme();
+// currentTheme();
